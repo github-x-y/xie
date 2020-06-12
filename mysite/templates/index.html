@@ -1,0 +1,45 @@
+{% extends 'basic.html' %}
+{% load static %}
+{% block title %}home page{%  endblock %}
+{%  block content %}
+    <div style="background-color: rgba(0,0,0,0.8)">
+        <div class="row">
+          <div class="col-lg-7" >
+            <div style="color: white;">
+              <br>
+              <p class="h2">CONTACT US:</p>
+              <br>
+              <p class="h4">Tel & Skype: +8618721917351</p>
+              <p class="h4">Email Address: jely.yu@huayistartech.com</p>
+              <p class="h4">Company: Dongguan Huayi Star Electronic Technology Co., Ltd</p>
+              <p class="h4">Company Address: F401, No.48 Changdong Road,  Banshi, Changping Town,</p>
+              <p class="h4">Dongguan, Guangdong, China.</p>
+              <br>
+              <br>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="text-right">
+                <br>
+            <form class="form-inline" action="http://122.9.50.122/sumbit">
+              <div>
+              <label></label>
+                <input name="detail" placeholder="Your name:" class="form-control" type="text">
+              </div>
+              <div>
+              <label></label>
+                <input name="phone" placeholder="Your call:" class="form-control" type="text">
+              </div>
+              <div>
+                <input type='text' placeholder="Your Message:" name="info"  cols="25" rows="6">
+              </div>
+              <div>
+                <input class="btn btn-success" type="submit" value="submit">
+              </div>
+            </form>
+                <br>
+            </div>
+          </div>
+        </div>
+    </div>
+{% endblock %}
